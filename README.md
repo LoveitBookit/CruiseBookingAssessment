@@ -10,7 +10,7 @@ A small .NET 8 modular monolith for listing cruises, taking bookings and sending
 ## Getting started
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/LoveitBookit/CruiseBookingAssessment.git
 cd CruiseBookingAssessment
 dotnet restore
 dotnet build
