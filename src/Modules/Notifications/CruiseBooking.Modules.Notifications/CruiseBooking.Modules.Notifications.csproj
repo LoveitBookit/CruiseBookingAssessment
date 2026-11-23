@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\BuildingBlocks\CruiseBooking.BuildingBlocks\CruiseBooking.BuildingBlocks.csproj" />
+    <ProjectReference Include="..\..\Bookings\CruiseBooking.Modules.Bookings.Contracts\CruiseBooking.Modules.Bookings.Contracts.csproj" />
+    <ProjectReference Include="..\..\Cruises\CruiseBooking.Modules.Cruises.Contracts\CruiseBooking.Modules.Cruises.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
